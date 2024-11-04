@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dao_ex_3.TaskMainAct"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/edT31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Task Title"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields" />
+
+    <ImageButton
+        android:id="@+id/imgBt31"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/saveBt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/showBt31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Tasks"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv31"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>

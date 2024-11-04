@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dao_ex_2.ProductMainAct"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/text21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Title"
+
+        />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/img21"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/pickBt21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/saveBt21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/showBt21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv21"
+        />
+</LinearLayout>
